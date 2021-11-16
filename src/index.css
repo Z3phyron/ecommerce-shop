@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap);
+
+
+*,
+html,
+body,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+:root {
+    --Color-1: #fff;
+    --Color-2: rgba(96, 144, 212, 0.326);
+    --Color-3: rgba(38, 38, 38, 0.687);
+    --Color-4: rgba(106, 106, 106, 0.45);
+    --Color-5: #fff;
+    --header-height: 3.5rem;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(118, 117, 118);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    /* color: var(--title-color); */
+    font-weight: var(--font-semi-bold);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button,
+input {
+    border: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
